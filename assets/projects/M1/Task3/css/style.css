@@ -27,23 +27,23 @@ header{
 }
 
 #fondo_index{
-    background-image: url("../img/design1_image2.jpg");
+    background-image: url("../../img/design1_image2.jpg");
 }
 
 #fondo_about{
-    background-image: url("../img/design1_image1.jpg");
+    background-image: url("../../img/design1_image1.jpg");
 }
 
 #fondo_information{
-    background-image: url("../img/hockey_3.jpg");
+    background-image: url("../../img/hockey_3.jpg");
 }
 
 #fondo_rules{
-    background-image: url("../img/hockey_1.jpg");
+    background-image: url("../../img/hockey_1.jpg");
 }
 
 #fondo_contact{
-    background-image: url("../img/hockey_2.jpg");
+    background-image: url("../../img/hockey_2.jpg");
     background-position: top;
 }
 
