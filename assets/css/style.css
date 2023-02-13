@@ -19,8 +19,62 @@ ul{
     margin: 0;
 }
 
+img{
+    max-width: 100%;
+}
+
 body{
     background: antiquewhite;
 }
 
-/*Mobile Fist*/
+/*Mobile Fist (Resolucion 360x740 - Samsung S8)*/
+
+nav{
+    background: #2f1335;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .nav_left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+nav .nav_logo{
+    width: 250px;
+}
+
+ul.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+ul.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background:#ff6e49;
+    padding: 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+}
+
+.banner .banner_img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: 60% 50%;
+}
