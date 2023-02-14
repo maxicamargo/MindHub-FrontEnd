@@ -24,7 +24,7 @@ img{
 }
 
 body{
-    background: antiquewhite;
+    background: #f9e5c0;
 }
 
 /*Mobile Fist (Resolucion 360x740 - Samsung S8)*/
@@ -69,6 +69,7 @@ ul.menu a{
 
 h1{
     text-align: center;
+    font-size: 2rem;
     padding: 15px;
 }
 
@@ -77,4 +78,67 @@ h1{
     height: 180px;
     object-fit: cover;
     object-position: 60% 50%;
+}
+main{
+    padding: 10px;
+}
+
+main>section>h2{
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+    background: #2f1335;
+}
+
+
+
+
+
+
+
+
+
+
+/*Paleta de colores a utilizar*/
+main>.paleta_colores{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main>.paleta_colores>.colores{
+    padding: 0 34px;
+}
+
+main>.paleta_colores>.colores>p{
+    display: none;
+}
+
+#color1{
+    background: #2f1335;
+    color: #2f1335;
+}
+
+#color2{
+    background: #620e5d;
+    color: #620e5d;
+}
+
+#color3{
+    background: #9d007a;
+    color: #9d007a;
+}
+
+#color4{
+    background: #ce3762;
+    color: #ce3762;
+}
+
+#color5{
+    background: #ff6e49;
+    color: #ff6e49;
 }
